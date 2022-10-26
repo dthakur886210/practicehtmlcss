@@ -1,0 +1,27 @@
+.main_div{
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.nav_header{
+    width: 100%;
+}
+.main_cont{
+    width: 100%;
+    background-color: #FAFAFA;
+}
+@media screen and (max-width: 1000px) {
+    .cont{
+        display: inline !important;
+    }
+    .continue_tab{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        background-color: white;
+
+    }
+    .button_cont{
+        width: 100% !important;
+       
+    }
+}
