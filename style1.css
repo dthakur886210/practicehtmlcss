@@ -10,6 +10,9 @@
     background-color: #FAFAFA;
 }
 @media screen and (max-width: 1000px) {
+    .image_after{
+        display: none;
+    }
     .cont{
         display: inline !important;
     }
