@@ -9,7 +9,22 @@
     width: 100%;
     background-color: #FAFAFA;
 }
+@media screen and (min-width : 1000px) {
+    .toFind_button{
+        justify-content: start;
+    }
+    .text_comp{
+        justify-content: start;
+    }
+    
+}
 @media screen and (max-width: 1000px) {
+    .toFind_button{
+        justify-content: center;
+    }
+  .text_comp{
+        justify-content: center;
+    }
     .image_after{
         display: none;
     }
